@@ -26,7 +26,7 @@ public class Principal {
         List<String> cuatro = new LinkedList<String>();
         Radix ordenar_con = new Radix();
         Radix.ingresar_datos(arreglo_og,15);
-        ordenar_con.radixsort(4,arreglo_og,cero,uno,dos,tres,cuatro);
+        ordenar_con.radixsort(arreglo_og.get(0).length(),arreglo_og,cero,uno,dos,tres,cuatro);
         System.out.println(arreglo_og);
     }
 }
